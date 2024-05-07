@@ -1,0 +1,13 @@
+"use client";
+import React from "react";
+
+const Footer = () => {
+
+  return (
+    <footer className = "page-footer">
+        Copyright 2024
+    </footer>
+  );
+};
+
+export default Footer;
