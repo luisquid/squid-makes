@@ -10,8 +10,8 @@ export default function Home() {
          Can you believe squids can do that?!
         </p>
       </div>
-      <BackgroundVideo videoSource = "./bg-test.mp4"/>
-      <div className = "background-div bg-slate-900 bg-opacity-50"/>
+      <BackgroundVideo videoSource = "./squidmakes-draft1.mp4"/>
+      <div className = "background-div bg-slate-900 bg-opacity-60"/>
       <Logo/>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">

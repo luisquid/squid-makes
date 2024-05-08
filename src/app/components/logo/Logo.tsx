@@ -19,8 +19,9 @@ const Logo = () => {
 
   return (
     <>
-      <div className = "transition ease-in-out duration-100 hover:animate-bounce">
-        <Link href="/">
+      {/* <div className = "transition ease-in-out duration-100 hover:animate-bounce"> */}
+      <div>
+        <Link href="/about">
           <Image
             src="/1.png"
             alt="Logo"
