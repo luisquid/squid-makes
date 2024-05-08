@@ -20,7 +20,7 @@ const Logo = () => {
   return (
     <>
       {/* <div className = "transition ease-in-out duration-100 hover:animate-bounce"> */}
-      <div>
+      <div className = "center-screen">
         <Link href="/about">
           <Image
             src="/1.png"
