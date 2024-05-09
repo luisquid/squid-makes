@@ -13,7 +13,8 @@ export default function Home() {
       <BackgroundVideo videoSource = "./squidmakes-draft1.mp4"/>
       <div className = "background-div bg-slate-900 bg-opacity-60"/>
       <Logo/>
-
+      <p className = "text-center font-sans text-2xl tracking-wider">#soon<br></br><div className="text-sm">hi@squidmakes.games</div></p>
+      
       {/* <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
