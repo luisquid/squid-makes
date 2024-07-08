@@ -13,7 +13,12 @@ export default function Home() {
       <BackgroundVideo videoSource = "./squidmakes-draft1.mp4"/>
       <div className = "background-div bg-slate-900 bg-opacity-60"/>
       <Logo/>
-      <p className = "text-center font-sans text-2xl tracking-wider">#soon<br></br><div className="text-sm">hi@squidmakes.games</div></p>
+      
+      <div className="text-sm">
+      <p className = "text-center font-sans text-2xl tracking-wider">#soon</p>
+      <br></br>
+        <a href="mailto:hi@squidmakes.games" target = "_blank" className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">Reach out!</a>
+      </div>
       
       {/* <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
         <a
