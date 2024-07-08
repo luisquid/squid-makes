@@ -1,23 +1,25 @@
 import Image from "next/image";
+import localFont from 'next/font/local'
 import Logo from "./components/logo/Logo"
 import BackgroundVideo from "./components/BackgroundVideo";
 import Footer from "./components/Footer";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-">
-      <div className="z-10 w-full max-w-6xl items-center justify-between font-mono text-sm lg:flex animate-bounce">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      {/* <div className="z-10 w-full max-w-6xl items-center justify-between font-mono text-sm lg:flex animate-bounce">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
          Can you believe squids can do that?!
         </p>
-      </div>
+      </div> */}
       <BackgroundVideo videoSource = "./squidmakes-draft1.mp4"/>
-      <div className = "background-div bg-slate-900 bg-opacity-60"/>
+      <div className = "background-div bg-slate-900 bg-opacity-80"/>
       <Logo/>
       
       <div className="text-sm">
-      <p className = "text-center font-sans text-2xl tracking-wider">#soon</p>
+      <p className = "text-center font-sans text-2xl tracking-wider">c o m i n g s o o n</p>
       <br></br>
-        <a href="mailto:hi@squidmakes.games" target = "_blank" className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">Reach out!</a>
+        {/* <a href="mailto:hi@squidmakes.games" target = "_blank" className="text-2xl tracking-wide text-center text-blue-600 underline dark:text-blue-500 hover:no-underline">Reach out!</a> */}
       </div>
       
       {/* <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
