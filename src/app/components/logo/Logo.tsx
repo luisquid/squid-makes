@@ -23,10 +23,10 @@ const Logo = () => {
       <div className = "center-screen">
         <Link href="/about">
           <Image
-            src="/1.png"
+            src="/4-ver2.png"
             alt="Logo"
-            width={width < 1024 ? "256" : "400"}
-            height={width < 1024 ? "256" : "400"}
+            width={width < 1024 ? "128" : "300"}
+            height={width < 1024 ? "128" : "300"}
             className="relative"
           />
         </Link>
