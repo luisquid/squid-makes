@@ -23,10 +23,10 @@ const Logo = () => {
       <div className = "center-screen">
         <Link href="">
           <Image
-            src="/4-ver2.png"
+            src="/SquidMakes 3.png"
             alt="Logo"
-            width={width < 1024 ? "128" : "300"}
-            height={width < 1024 ? "128" : "300"}
+            width={width < 1024 ? "350" : "750"}
+            height={width < 1024 ? "350" : "750"}
             className="relative"
           />
         </Link>
